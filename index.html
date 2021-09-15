@@ -8,16 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Divisas</title>
 </head>
 <body>
+    <script src="../Divisas/script/script.js"></script>
     
     <div class="container-principal">
             <div id="imagen"> <img src="../Divisas/imagen/2810888.png" alt=""> </div>
-            <div id="cantidad-dinero">Cantidad de Dinero</div>
-            <div id="elige-moneda1">Elige tu moneda</div>
-            <div id="elige-moneda2">Elige tu moneda</div>
-            <div id="convertir">Convertir</div>
+                <form>
+                    <input id="cantidad-dinero" placeholder="Ingresar cantidad a cambiar">
+                    <input id="elige-moneda1" placeholder="Elige tu moneda">
+                    <input id="elige-moneda2" placeholder="Elige tu moneda">
+                </form>
+            <div id="convertir"><button onClick="calculate()" >Convertir</button></div>
         </div>
   
 </body>
