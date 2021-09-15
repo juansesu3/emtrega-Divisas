@@ -7,9 +7,11 @@ body{
     height: 300px;
     display: flex;
     border-radius: 30px;
+    box-shadow: 0px 0px 20px black;
     margin: 20% auto;
     background-color: rgb(202, 202, 202);
     font-family: 'Inder', sans-serif;
+    font-size: 100%;
 }
 img {
     position: relative;
@@ -26,6 +28,7 @@ img {
     height: 19px;
     text-align: center;
     border-radius: 7px;
+    box-shadow: 0px 0px 10px black;
     border: 1px solid rgba(90, 106, 246, 0.383);
     background-color: rgb(200, 200, 200);
 
@@ -37,6 +40,7 @@ img {
     width: 130px;
     border: 1px solid rgba(90, 106, 246, 0.383);
     border-radius: 7px;
+    box-shadow: 0px 0px 10px black;
     text-align: center;
     background-color: rgb(200, 200, 200);
 
@@ -49,6 +53,7 @@ img {
     width: 130px;
     border: 1px solid rgba(90, 106, 246, 0.383);
     border-radius: 7px;
+    box-shadow: 0px 0px 10px black;
     text-align: center;
     background-color: rgb(200, 200, 200);
 
@@ -61,6 +66,7 @@ img {
     width: 130px;
     border: 1px solid rgba(90, 106, 246, 0.383);
     border-radius: 7px;
+    box-shadow: 0px 0px 10px black;
     text-align: center;
     background-color: yellowgreen;
 
