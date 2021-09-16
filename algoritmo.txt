@@ -25,7 +25,7 @@ Seleccionar tipo de cambio
 -------------------------------------------------------------------------------------------------------------------------
 
 
-	SI
+	SI{
 	   dolar
 
 			(cantidadDinero*(valor dolar con respecto al dolar "1"))       =  monedaConvert
@@ -39,9 +39,10 @@ Seleccionar tipo de cambio
 			
  
 			(hacer nada)
+	}		
 
 
-	SI
+	SI{
 	   cop
 
 			(cantidadDinero*(valor cop con respecto al dolar "0,00026"))     =  monedaConvert
@@ -55,9 +56,10 @@ Seleccionar tipo de cambio
 			
 
 			(hacer nada)
+	}
 
 
-	SI
+	SI{
 	   mex
 			(cantidadDinero*(valor mex con respecto al dolar"0,050"))    =  monedaConvert
 			(cantidadDinero*(valor mex con respecto al cop"191,921"))    =  monedaConvert
@@ -70,10 +72,11 @@ Seleccionar tipo de cambio
 			
 
 			(hacer nada)
+	}		
 
 
 
-	Si
+	Si{
 	  euro
 
 			(cantidadDinero*(valor euro con respecto al dolar"1,18"))    =  monedaConvert
@@ -87,9 +90,11 @@ Seleccionar tipo de cambio
 
 			(hacer nada)
 
+	}
 
 
-	SI
+
+	SI{
 	  pound
 
 			(cantidadDinero*(valor pound con respecto al doalr"1,38"))    =  monedaConvert
@@ -103,3 +108,13 @@ Seleccionar tipo de cambio
 			
 
 			(hacer nada)
+	}	
+
+
+
+
+
+	
+
+
+     

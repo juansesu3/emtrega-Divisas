@@ -17,8 +17,24 @@
             <div id="imagen"> <img src="../Divisas/imagen/2810888.png" alt=""> </div>
                 <form>
                     <input id="cantidad-dinero" placeholder="Ingresar cantidad a cambiar">
-                    <input id="elige-moneda1" placeholder="Elige tu moneda">
-                    <input id="elige-moneda2" placeholder="Elige tu moneda">
+                    <!--<input id="elige-moneda1" placeholder="Elige tu moneda">-->
+                    <!-- The second value will be selected initially -->
+                    <select id="elige-moneda1" name="select">
+                        <option value="value1">Dolar</option>
+                        <option value="value2">Cop</option>
+                        <option value="value3">Mex</option>
+                        <option value="value1">Euro</option>
+                        <option value="value2">Pound</option>   
+                    </select>
+                    <select id="elige-moneda2" name="select">
+                        <option value="value1">Dolar</option>
+                        <option value="value2">Cop</option>
+                        <option value="value3">Mex</option>
+                        <option value="value1">Euro</option>
+                        <option value="value2">Pound</option>   
+                    </select>
+  
+                    <!--<input id="elige-moneda2" placeholder="Elige tu moneda">-->
                 </form>
             <div id="convertir"><button onClick="calculate()" >Convertir</button></div>
         </div>
