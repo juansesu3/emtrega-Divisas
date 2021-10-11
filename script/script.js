@@ -29,6 +29,7 @@ function convertorDivisas() {
 let res = convertor(cantidadDinero, divisaOrigen, divisaDestino);
 function convertor(valor, origen, destino) {
   let trc = [1, 3828, 20.49, 0.86, 0.74];
+  let resu;
 
   if (origen == "usd" && destino == "usd") {
     resu = (valor / 1) * trc[0] + ". usd";
@@ -65,7 +66,7 @@ function convertor(valor, origen, destino) {
   if (origen == "mex" && destino == "usd") {
     resu = (valor / 20.49) * trc[0] + ". usd";
   }
-  if (origen == "mex" && destino == ". cop") {
+  if (origen == "mex" && destino == "cop") {
     resu = (valor / 20.49) * trc[1] + ". cop";
   }
   if (origen == "mex" && destino == "mex") {
